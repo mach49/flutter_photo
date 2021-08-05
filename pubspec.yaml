@@ -11,13 +11,15 @@ dependencies:
   flutter:
     sdk: flutter
 
-  photo_manager: ^0.5.1
+  # photo_manager: ^0.5.1
   # photo_manager:
   #   git:
   #     url: https://github.com/CaiJingLong/flutter_photo_manager.git
   #     ref: ffaa6e8470708e63c3456837c8bd6eef7b0d42df
-  # photo_manager:
-  #   path: ../flutter_photo_manager
+  photo_manager:
+     git:
+      url: https://github.com/mach49/flutter_photo_manager.git
+      ref: d94bee14fcb34b7841e528a0c580bd5ad5a51d62
 
 dev_dependencies:
   flutter_test:
